@@ -67,8 +67,16 @@ namespace crow
                 dumpString(ss, httponly_, "HttpOnly");
                 if (expires_at_)
                 {
-                    ss << DIVIDER << "Expires="
-                       << std::put_time(expires_at_.get(), HTTP_DATE_FORMAT);
+                    std::string old_locale_cstr = std::setlocale(LC_TIME, nullptr);
+                    std::setlocale(LC_TIME, "C");
+
+                    char buf[100];
+                    if (std::strftime(buf, sizeof(buf), HTTP_DATE_FORMAT, expires_at_.get()))
+                    {
+                        ss << DIVIDER << "Expires=" << buf;
+                    }
+
+                    std::setlocale(LC_TIME, old_locale_cstr.c_str());
                 }
                 if (max_age_)
                 {
