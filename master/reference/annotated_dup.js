@@ -60,8 +60,8 @@ var annotated_dup =
         [ "multi_value", "structcrow_1_1session_1_1multi__value.html", null ]
       ] ],
       [ "websocket", "namespacecrow_1_1websocket.html", [
-        [ "connection", "structcrow_1_1websocket_1_1connection.html", null ],
-        [ "Connection", "classcrow_1_1websocket_1_1_connection.html", "classcrow_1_1websocket_1_1_connection" ]
+        [ "Connection", "classcrow_1_1websocket_1_1_connection.html", "classcrow_1_1websocket_1_1_connection" ],
+        [ "connection", "structcrow_1_1websocket_1_1connection.html", null ]
       ] ],
       [ "bad_request", "structcrow_1_1bad__request.html", null ],
       [ "BaseRule", "classcrow_1_1_base_rule.html", null ],
@@ -88,7 +88,7 @@ var annotated_dup =
       [ "request", "structcrow_1_1request.html", "structcrow_1_1request" ],
       [ "response", "structcrow_1_1response.html", "structcrow_1_1response" ],
       [ "returnable", "structcrow_1_1returnable.html", null ],
-      [ "Router", "classcrow_1_1_router.html", "classcrow_1_1_router" ],
+      [ "Router", "classcrow_1_1_router.html", null ],
       [ "routing_handle_result", "structcrow_1_1routing__handle__result.html", null ],
       [ "RuleParameterTraits", "structcrow_1_1_rule_parameter_traits.html", "structcrow_1_1_rule_parameter_traits" ],
       [ "Server", "classcrow_1_1_server.html", "classcrow_1_1_server" ],
@@ -96,7 +96,10 @@ var annotated_dup =
       [ "SocketAdaptor", "structcrow_1_1_socket_adaptor.html", "structcrow_1_1_socket_adaptor" ],
       [ "SSLAdaptor", "structcrow_1_1_s_s_l_adaptor.html", null ],
       [ "TaggedRule", "classcrow_1_1_tagged_rule.html", null ],
+      [ "TCPAcceptor", "structcrow_1_1_t_c_p_acceptor.html", null ],
       [ "Trie", "classcrow_1_1_trie.html", "classcrow_1_1_trie" ],
+      [ "UnixSocketAcceptor", "structcrow_1_1_unix_socket_acceptor.html", null ],
+      [ "UnixSocketAdaptor", "structcrow_1_1_unix_socket_adaptor.html", null ],
       [ "UTF8", "structcrow_1_1_u_t_f8.html", "structcrow_1_1_u_t_f8" ],
       [ "WebSocketRule", "classcrow_1_1_web_socket_rule.html", "classcrow_1_1_web_socket_rule" ]
     ] ],

@@ -28,7 +28,7 @@ var namespacecrow =
     [ "request", "structcrow_1_1request.html", "structcrow_1_1request" ],
     [ "response", "structcrow_1_1response.html", "structcrow_1_1response" ],
     [ "returnable", "structcrow_1_1returnable.html", null ],
-    [ "Router", "classcrow_1_1_router.html", "classcrow_1_1_router" ],
+    [ "Router", "classcrow_1_1_router.html", null ],
     [ "routing_handle_result", "structcrow_1_1routing__handle__result.html", null ],
     [ "RuleParameterTraits", "structcrow_1_1_rule_parameter_traits.html", "structcrow_1_1_rule_parameter_traits" ],
     [ "Server", "classcrow_1_1_server.html", "classcrow_1_1_server" ],
@@ -36,10 +36,13 @@ var namespacecrow =
     [ "SocketAdaptor", "structcrow_1_1_socket_adaptor.html", "structcrow_1_1_socket_adaptor" ],
     [ "SSLAdaptor", "structcrow_1_1_s_s_l_adaptor.html", null ],
     [ "TaggedRule", "classcrow_1_1_tagged_rule.html", null ],
+    [ "TCPAcceptor", "structcrow_1_1_t_c_p_acceptor.html", null ],
     [ "Trie", "classcrow_1_1_trie.html", "classcrow_1_1_trie" ],
+    [ "UnixSocketAcceptor", "structcrow_1_1_unix_socket_acceptor.html", null ],
+    [ "UnixSocketAdaptor", "structcrow_1_1_unix_socket_adaptor.html", null ],
     [ "UTF8", "structcrow_1_1_u_t_f8.html", "structcrow_1_1_u_t_f8" ],
     [ "WebSocketRule", "classcrow_1_1_web_socket_rule.html", "classcrow_1_1_web_socket_rule" ],
     [ "App", "namespacecrow.html#a153c1bf24903d1a8629ef6eaf045110b", null ],
     [ "SimpleApp", "namespacecrow.html#a3603179c9794548cac2c9990685178b4", null ],
-    [ "get_header_value", "namespacecrow.html#a28cea0cb8e934bf4c6ee5250f10f2ef7", null ]
+    [ "get_header_value", "namespacecrow.html#a88064857f10f96ac9bf075e19624ee4d", null ]
 ];
