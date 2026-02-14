@@ -12,5 +12,7 @@ var structcrow_1_1_c_o_r_s_rules =
     [ "methods", "structcrow_1_1_c_o_r_s_rules.html#add84bf56b40ffde7d31066bad2e81acc", null ],
     [ "methods", "structcrow_1_1_c_o_r_s_rules.html#a34e59d41310904e06f77d92f5c12bd55", null ],
     [ "origin", "structcrow_1_1_c_o_r_s_rules.html#a24c7fb4f22e72d9bf11c444eeefe27fe", null ],
+    [ "origins", "structcrow_1_1_c_o_r_s_rules.html#ab1ebab5f2d52dce7fd0813553c464e5c", null ],
+    [ "origins", "structcrow_1_1_c_o_r_s_rules.html#a4132f64c4007f5324ee43670da1aa681", null ],
     [ "prefix", "structcrow_1_1_c_o_r_s_rules.html#a98b09d1b3ebcc8db99a845333dc1ffff", null ]
 ];

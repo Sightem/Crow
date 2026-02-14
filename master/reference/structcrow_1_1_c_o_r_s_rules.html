@@ -118,6 +118,13 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="structcrow_1_1_c_o_r_s_rules.html">CORSRules</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>origin</b> (const std::string &amp;origin)</td></tr>
 <tr class="memdesc:a24c7fb4f22e72d9bf11c444eeefe27fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Access-Control-Allow-Origin. Default is "*". <br /></td></tr>
 <tr class="separator:a24c7fb4f22e72d9bf11c444eeefe27fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ebab5f2d52dce7fd0813553c464e5c" id="r_ab1ebab5f2d52dce7fd0813553c464e5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcrow_1_1_c_o_r_s_rules.html">CORSRules</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrow_1_1_c_o_r_s_rules.html#ab1ebab5f2d52dce7fd0813553c464e5c">origins</a> (const std::string &amp;<a class="el" href="structcrow_1_1_c_o_r_s_rules.html#a24c7fb4f22e72d9bf11c444eeefe27fe">origin</a>)</td></tr>
+<tr class="separator:ab1ebab5f2d52dce7fd0813553c464e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4132f64c4007f5324ee43670da1aa681" id="r_a4132f64c4007f5324ee43670da1aa681"><td class="memTemplParams" colspan="2"><a id="a4132f64c4007f5324ee43670da1aa681" name="a4132f64c4007f5324ee43670da1aa681"></a>
+template&lt;typename... Origins&gt; </td></tr>
+<tr class="memitem:a4132f64c4007f5324ee43670da1aa681"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structcrow_1_1_c_o_r_s_rules.html">CORSRules</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>origins</b> (const std::string &amp;<a class="el" href="structcrow_1_1_c_o_r_s_rules.html#a24c7fb4f22e72d9bf11c444eeefe27fe">origin</a>, Origins... origin_list)</td></tr>
+<tr class="memdesc:a4132f64c4007f5324ee43670da1aa681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set dynamically selected Access-Control-Allow-Origin values. <br /></td></tr>
+<tr class="separator:a4132f64c4007f5324ee43670da1aa681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add84bf56b40ffde7d31066bad2e81acc" id="r_add84bf56b40ffde7d31066bad2e81acc"><td class="memItemLeft" align="right" valign="top"><a id="add84bf56b40ffde7d31066bad2e81acc" name="add84bf56b40ffde7d31066bad2e81acc"></a>
 <a class="el" href="structcrow_1_1_c_o_r_s_rules.html">CORSRules</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>methods</b> (crow::HTTPMethod method)</td></tr>
 <tr class="memdesc:add84bf56b40ffde7d31066bad2e81acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Access-Control-Allow-Methods. Default is "*". <br /></td></tr>
@@ -178,7 +185,35 @@ struct&#160;</td><td class="memItemRight" valign="bottom"><b>crow::CORSHandler</
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used for tuning CORS policies. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab1ebab5f2d52dce7fd0813553c464e5c" name="ab1ebab5f2d52dce7fd0813553c464e5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ebab5f2d52dce7fd0813553c464e5c">&#9670;&#160;</a></span>origins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcrow_1_1_c_o_r_s_rules.html">CORSRules</a> &amp; crow::CORSRules::origins </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>origin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set dynamically selected Access-Control-Allow-Origin values If the request Origin header matches one of these values, that origin is echoed back </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/crow/middlewares/<a class="el" href="cors_8h_source.html">cors.h</a></li>
 </ul>
 </div><!-- contents -->

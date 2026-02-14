@@ -5,5 +5,6 @@ var searchData=
   ['operator_20int_2',['operator int',['../structcrow_1_1multipart_1_1header.html#adff380493f414108eb67420d06d426ee',1,'crow::multipart::header::operator int()'],['../structcrow_1_1multipart_1_1part.html#a06851f0fd2d36b71139e8488fb646b7e',1,'crow::multipart::part::operator int()'],['../structcrow_1_1multipart_1_1header__view.html#a3031c16055b06d94567802ec202c6622',1,'crow::multipart::header_view::operator int()'],['../structcrow_1_1multipart_1_1part__view.html#a2307998bbce5709e7d1d7cee49b7edc0',1,'crow::multipart::part_view::operator int()']]],
   ['operator_20std_3a_3astring_3',['string',['../classcrow_1_1json_1_1rvalue.html#a2d5dd8607112a132fe070dee432987ae',1,'crow::json::rvalue']]],
   ['operator_3c_3c_4',['operator&lt;&lt;',['../structcrow_1_1multipart_1_1padded.html#a742979dce5bf8979686bec8833b9e1ad',1,'crow::multipart::padded']]],
-  ['origin_5',['origin',['../structcrow_1_1_c_o_r_s_rules.html#a24c7fb4f22e72d9bf11c444eeefe27fe',1,'crow::CORSRules']]]
+  ['origin_5',['origin',['../structcrow_1_1_c_o_r_s_rules.html#a24c7fb4f22e72d9bf11c444eeefe27fe',1,'crow::CORSRules']]],
+  ['origins_6',['origins',['../structcrow_1_1_c_o_r_s_rules.html#ab1ebab5f2d52dce7fd0813553c464e5c',1,'crow::CORSRules::origins(const std::string &amp;origin)'],['../structcrow_1_1_c_o_r_s_rules.html#a4132f64c4007f5324ee43670da1aa681',1,'crow::CORSRules::origins(const std::string &amp;origin, Origins... origin_list)']]]
 ];
